@@ -1,0 +1,6 @@
+framework module LGAfterschoolPlanFramework {
+  umbrella header "LGAfterschoolPlanFramework.h"
+
+  export *
+  module * { export * }
+}

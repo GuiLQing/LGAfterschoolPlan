@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGAfterschoolPlanFramework'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of LGAfterschoolPlanFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -28,15 +28,39 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/GuiLQing/LGAfterschoolPlanFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LGAfterschoolPlanFramework/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LGAfterschoolPlanFramework' => ['LGAfterschoolPlanFramework/Assets/*.png']
-  # }
+#系统依赖库
+s.frameworks = 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreVideo', 'MediaPlayer', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'UIKit', 'VideoToolbox', 'Accelerate'
+s.libraries = 'z', 'bz2', 'stdc++'
+s.requires_arc = true
+s.static_framework  =  true
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#需要包含的源文件
+s.source_files = 'LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.framework/Headers/*.{h}'
+
+#你的SDK路径
+s.vendored_frameworks = 'LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.framework'
+
+s.resource_bundles = {
+'Resources' => 'LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.bundle'
+}#资源文件的路径，会在pod中创建“Resources”的文件夹
+
+s.dependency 'AFNetworking'
+s.dependency 'Masonry'
+s.dependency 'JSONModel'
+s.dependency 'SDWebImage'
+s.dependency 'Reachability'
+s.dependency 'ReactiveObjC'
+s.dependency 'MJRefresh'
+s.dependency 'Charts','~> 3.1.1'
+s.dependency 'MarqueeLabel','~> 3.2.0'
+s.dependency 'MBProgressHUD','~> 1.1.0'
+s.dependency 'YYText'
+s.dependency 'MJExtension'
+s.dependency 'YJTaskMark'
+s.dependency 'YJMediaPlayer'
+s.dependency 'SG_AnimationTransition'
+s.dependency 'SG_Clock'
+
 end
