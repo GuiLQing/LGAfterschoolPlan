@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LGAfterschoolPlanFramework_Example' do
+  pod 'LGAfterschoolPlanFramework', :path => '../'
+
+  target 'LGAfterschoolPlanFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
