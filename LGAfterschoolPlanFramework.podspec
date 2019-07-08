@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGAfterschoolPlanFramework'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of LGAfterschoolPlanFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -42,9 +42,7 @@ s.source_files = 'LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.
 #你的SDK路径
 s.vendored_frameworks = 'LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.framework'
 
-s.resource_bundles = {
-'Resources' => 'LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.bundle'
-}#资源文件的路径，会在pod中创建“Resources”的文件夹
+s.resources = 'LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.bundle'
 
 s.dependency 'AFNetworking'
 s.dependency 'Masonry'

@@ -303,12 +303,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LGAfterschoolPlanFramework_Example/Pods-LGAfterschoolPlanFramework_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/LGAfterschoolPlanFramework/Resources.bundle",
+				"${PODS_ROOT}/../../LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.bundle",
 				"${PODS_ROOT}/YJMediaPlayer/YJMediaPlayer/Classes/YJMediaPlayer.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Resources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LGAfterschoolPlanFramework.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YJMediaPlayer.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
