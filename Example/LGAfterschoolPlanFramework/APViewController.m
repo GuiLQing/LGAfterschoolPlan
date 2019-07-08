@@ -7,6 +7,7 @@
 //
 
 #import "APViewController.h"
+#import <LGAfterschoolPlanFramework/LGAfterschoolPlanFramework.h>
 
 @interface APViewController ()
 
