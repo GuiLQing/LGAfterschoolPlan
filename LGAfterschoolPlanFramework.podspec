@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGAfterschoolPlanFramework'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'A short description of LGAfterschoolPlanFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -60,5 +60,7 @@ s.dependency 'YJTaskMark'
 s.dependency 'YJMediaPlayer'
 s.dependency 'YJPresentAnimation'
 s.dependency 'SG_Clock'
+s.dependency 'SGTools'
+s.dependency 'PSGChainedMode'
 
 end
