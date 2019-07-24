@@ -16,7 +16,5 @@ FOUNDATION_EXPORT const unsigned char LGAfterschoolPlanFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LGAfterschoolPlanFramework/PublicHeader.h>
 
-#import "APBaseNavigationController.h"
-#import "APStudyPlanListViewController.h"
 #import "LGAfterschoolPlanManager.h"
 
