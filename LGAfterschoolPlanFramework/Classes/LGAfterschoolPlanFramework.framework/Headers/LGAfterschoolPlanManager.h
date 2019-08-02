@@ -18,19 +18,17 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LGAfterschoolPlanManager : NSObject
 
 /** 用户ID */
-@property (nonatomic, strong) NSString *userID;
+@property (nonatomic, copy) NSString *userID;
 /** 用户名 */
-@property (nonatomic, strong) NSString *userName;
+@property (nonatomic, copy) NSString *userName;
 
-@property (nonatomic, strong) NSString *subjectID;
+@property (nonatomic, copy) NSString *globalGrade;
 
-@property (nonatomic, strong) NSString *globalGrade;
+@property (nonatomic, copy) NSString *freeStudyBaseUrl;
 
-@property (nonatomic, strong) NSString *freeStudyBaseUrl;
+@property (nonatomic, copy) NSString *englishTrainingBaseUrl;
 
-@property (nonatomic, strong) NSString *englishTrainingBaseUrl;
-
-@property (nonatomic, strong) NSString *studyLevel;
+@property (nonatomic, copy) NSString *studyLevel;
 
 @property (nonatomic, strong, readonly) NSString *subjectCode;
 
@@ -42,6 +40,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)presentAfterschoolPlanControllerBy:(UIViewController *)controller;
 - (void (^)(UIViewController *controller))presentAfterschoolPlanController;
+
+/** 进入课外计划模块需要调用大数据推送登陆接口，要传入必要的参数 */
+@property (nonatomic, copy) NSString *schoolName;   //学校名称
+@property (nonatomic, copy) NSString *schoolID;     //学校ID
+@property (nonatomic, copy) NSString *gradeName;    //年级名称
+@property (nonatomic, copy) NSString *gradeID;      //年级ID
+@property (nonatomic, copy) NSString *groupName;    //班级名称
+@property (nonatomic, copy) NSString *groupID;      //班级ID
+@property (nonatomic, copy) NSString *subjectName;  //学科名称
+@property (nonatomic, copy) NSString *subjectID;    //学科ID
+@property (nonatomic, copy) NSString *courseNO;     //课程ID
+@property (nonatomic, copy) NSString *courseName;   //课程名称
+@property (nonatomic, copy) NSString *token;        //用户登录令牌
 
 @end
 
