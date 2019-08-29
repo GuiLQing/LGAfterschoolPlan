@@ -9,5 +9,8 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/**
+版本：1.0.0.1   2019-8-15
+ */
 
 #endif /* LGAfterschoolPlanVersion_h */
