@@ -9,6 +9,11 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.0.6    2019-9-9 */
+/**
+ 1、新增对外接口配置进入课外计划详情界面
+ */
+
 /** 版本：1.0.0.5    2019-9-5 */
 /**
  1、处理课外计划单词学习模式下手机静音模式播放无声问题

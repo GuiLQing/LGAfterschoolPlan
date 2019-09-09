@@ -57,6 +57,19 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger serverTimeStamp;
 @property (nonatomic, assign) NSInteger timeStampLocalBegin;
 
+/**
+ 跳转到课外计划详情界面
+
+ @param studyPlanType 计划类型(1-词汇背诵，2-听力训练)
+ @param planId 学习计划ID
+ @param rangeId 阶段ID
+ @param planState 任务状态(0-进行中，1-未开始, 2-已结束)
+ @param planName 计划名称
+ */
+- (UINavigationController *)presentAfterschoolPlanDetailWithStudyPlanType:(NSInteger)studyPlanType planId:(NSString *)planId rangeId:(NSString *)rangeId planState:(NSInteger)planState planName:(NSString *)planName backHandler:(void (^)(void))backHandler;
+
+- (void)presentAfterschoolPlanDetailVCBy:(UIViewController *)controller studyPlanType:(NSInteger)studyPlanType planId:(NSString *)planId rangeId:(NSString *)rangeId planState:(NSInteger)planState planName:(NSString *)planName;
+
 @end
 
 NS_ASSUME_NONNULL_END
