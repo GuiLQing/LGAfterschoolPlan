@@ -36,8 +36,11 @@ NS_ASSUME_NONNULL_BEGIN
 /** trainingType 词汇听写：1， 句子听写：2， 听力选择：3 */
 @property (nonatomic, copy) void (^jumpToEnglishTrainingBlock)(UIViewController *fromController, NSString *planId, NSInteger trainingType, NSString *resCode, NSNumber *lastProgress);
 
+@property (nonatomic, copy) void (^afterschoolPlanWillDismissBlock)(void);
+
 + (LGAfterschoolPlanManager *)defaultManager;
 
+- (UINavigationController *)presentAfterschoolPlanHomeViewControllerWithBackHandler:(void (^)(void))backHandler;
 - (void)presentAfterschoolPlanControllerBy:(UIViewController *)controller;
 - (void (^)(UIViewController *controller))presentAfterschoolPlanController;
 

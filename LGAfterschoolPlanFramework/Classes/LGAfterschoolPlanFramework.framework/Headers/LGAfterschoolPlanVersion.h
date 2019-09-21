@@ -9,6 +9,11 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.0.7    2019-9-21 */
+/**
+ 1、新增模块将要退出回调
+ */
+
 /** 版本：1.0.0.6    2019-9-9 */
 /**
  1、新增对外接口配置进入课外计划详情界面
