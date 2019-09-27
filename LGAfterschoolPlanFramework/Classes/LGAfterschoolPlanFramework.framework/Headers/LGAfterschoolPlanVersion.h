@@ -9,6 +9,13 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.0.8    2019-9-27 */
+/**
+ 1、课外计划单词详情界面iPad将就适配
+ 2、修改课外计划每次上拉都是第一页的bug
+ 3、修改课外计划听音模式释义弹框显示bug
+ */
+
 /** 版本：1.0.0.7    2019-9-21 */
 /**
  1、新增模块将要退出回调

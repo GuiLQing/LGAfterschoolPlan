@@ -57,9 +57,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *courseName;   //课程名称
 @property (nonatomic, copy) NSString *token;        //用户登录令牌
 
-@property (nonatomic, assign) NSInteger serverTimeStamp;
-@property (nonatomic, assign) NSInteger timeStampLocalBegin;
-
 /**
  跳转到课外计划详情界面
 
