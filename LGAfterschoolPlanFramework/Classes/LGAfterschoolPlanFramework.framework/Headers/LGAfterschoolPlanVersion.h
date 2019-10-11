@@ -9,6 +9,11 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.0.10    2019-10-11 */
+/**
+ 1、完成课外计划iPad适配
+ */
+
 /** 版本：1.0.0.9    2019-9-29 */
 /**
  1、删除课外计划带杂音的背景音频
