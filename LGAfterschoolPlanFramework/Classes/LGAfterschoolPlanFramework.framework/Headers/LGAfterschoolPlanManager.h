@@ -33,8 +33,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) NSString *subjectCode;
 
 @property (nonatomic, assign, readonly) NSInteger levelId;
-/** trainingType 词汇听写：1， 句子听写：2， 听力选择：3 */
-@property (nonatomic, copy) void (^jumpToEnglishTrainingBlock)(UIViewController *fromController, NSString *planId, NSInteger trainingType, NSString *resCode, NSNumber *lastProgress);
+
+@property (nonatomic, copy) void (^jumpToEnglishPreviewBlock)(UIViewController *fromController, NSInteger trainingMode, NSString *resType, NSString *resCode);
+
+@property (nonatomic, copy) void (^jumpToEnglishTrainingBlock)(UIViewController *fromController, NSString *planId, NSInteger trainingMode, NSString *resType, NSString *resCode, NSNumber *lastProgress);
 
 @property (nonatomic, copy) void (^afterschoolPlanWillDismissBlock)(void);
 
