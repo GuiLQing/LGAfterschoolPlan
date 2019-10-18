@@ -17,34 +17,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LGAfterschoolPlanManager : NSObject
 
++ (LGAfterschoolPlanManager *)defaultManager;
+
 /** 用户ID */
 @property (nonatomic, copy) NSString *userID;
 /** 用户名 */
 @property (nonatomic, copy) NSString *userName;
 
 @property (nonatomic, copy) NSString *globalGrade;
-
+/** 自学基础服务器地址 */
 @property (nonatomic, copy) NSString *freeStudyBaseUrl;
-
+/** 英语训练基础服务器地址 */
 @property (nonatomic, copy) NSString *englishTrainingBaseUrl;
 
 @property (nonatomic, copy) NSString *studyLevel;
-
-@property (nonatomic, strong, readonly) NSString *subjectCode;
-
-@property (nonatomic, assign, readonly) NSInteger levelId;
-
-@property (nonatomic, copy) void (^jumpToEnglishPreviewBlock)(UIViewController *fromController, NSInteger trainingMode, NSString *resType, NSString *resCode);
-
-@property (nonatomic, copy) void (^jumpToEnglishTrainingBlock)(UIViewController *fromController, NSString *planId, NSInteger trainingMode, NSString *resType, NSString *resCode, NSNumber *lastProgress);
-
-@property (nonatomic, copy) void (^afterschoolPlanWillDismissBlock)(void);
-
-+ (LGAfterschoolPlanManager *)defaultManager;
-
-- (UINavigationController *)presentAfterschoolPlanHomeViewControllerWithBackHandler:(void (^)(void))backHandler;
-- (void)presentAfterschoolPlanControllerBy:(UIViewController *)controller;
-- (void (^)(UIViewController *controller))presentAfterschoolPlanController;
 
 /** 进入课外计划模块需要调用大数据推送登陆接口，要传入必要的参数 */
 @property (nonatomic, copy) NSString *schoolName;   //学校名称
@@ -58,6 +44,25 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *courseNO;     //课程ID
 @property (nonatomic, copy) NSString *courseName;   //课程名称
 @property (nonatomic, copy) NSString *token;        //用户登录令牌
+
+@property (nonatomic, strong, readonly) NSString *subjectCode;
+
+@property (nonatomic, assign, readonly) NSInteger levelId;
+
+#pragma mark - 课外计划回调
+
+@property (nonatomic, copy) void (^jumpToEnglishPreviewBlock)(UIViewController *fromController, NSInteger trainingMode, NSString *resType, NSString *resCode);
+
+@property (nonatomic, copy) void (^jumpToEnglishTrainingBlock)(UIViewController *fromController, NSString *planId, NSInteger trainingMode, NSString *resType, NSString *resCode, NSNumber *lastProgress);
+
+@property (nonatomic, copy) void (^afterschoolPlanWillDismissBlock)(void);
+
+#pragma mark - 对接课外计划跳转
+
+/** 跳转课外计划首页 */
+- (void)presentAfterschoolPlanControllerBy:(UIViewController *)controller;
+- (void (^)(UIViewController *controller))presentAfterschoolPlanController;
+- (UINavigationController *)presentAfterschoolPlanHomeViewControllerWithBackHandler:(void (^)(void))backHandler;
 
 /**
  跳转到课外计划详情界面

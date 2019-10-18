@@ -9,6 +9,12 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.0.13    2019-10-17 */
+/**
+ 1、修复UICollectionView在iOS 10.3上出现的视图不显示问题
+ 2、修复课外计划完成创建重复点击重复提交问题处理
+ */
+
 /** 版本：1.0.0.12    2019-10-16 */
 /**
  1、添加课外计划跳转英语训练资料预览
