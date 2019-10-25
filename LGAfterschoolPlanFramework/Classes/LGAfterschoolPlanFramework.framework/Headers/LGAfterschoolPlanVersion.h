@@ -9,13 +9,6 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
-/** 版本：1.0.0.14    2019-10-24 */
-/**
- 1、课外计划翻页异常处理
- 2、课外计划加强学习单词数据提交问题处理
- 3、课外计划学习达标问题处理
- */
-
 /** 版本：1.0.0.13    2019-10-17 */
 /**
  1、修复UICollectionView在iOS 10.3上出现的视图不显示问题
