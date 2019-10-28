@@ -9,6 +9,16 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.0.15    2019-10-28 */
+/**
+ 1、课外计划无数据图更新
+ */
+
+/** 版本：1.0.0.14    2019-10-26 */
+/**
+ 1、课外计划问题修改
+ */
+
 /** 版本：1.0.0.13    2019-10-17 */
 /**
  1、修复UICollectionView在iOS 10.3上出现的视图不显示问题
