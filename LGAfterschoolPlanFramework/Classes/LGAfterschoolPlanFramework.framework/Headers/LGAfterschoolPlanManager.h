@@ -45,6 +45,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *courseName;   //课程名称
 @property (nonatomic, copy) NSString *token;        //用户登录令牌
 
+/** 付费VIP模式 (default is YES) */
+@property (nonatomic, assign) BOOL isVipMode;
+/** 非VIP模式试听秒数 */
+@property (nonatomic, assign) NSInteger nonVipListeningTestTime;
+/** 是否开启非VIP限制 */
+@property (nonatomic, assign, readonly) BOOL isOpenNonVipLimit;
+
 @property (nonatomic, strong, readonly) NSString *subjectCode;
 
 @property (nonatomic, assign, readonly) NSInteger levelId;
