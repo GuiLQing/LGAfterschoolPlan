@@ -9,6 +9,11 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.2    2019-11-23 */
+/**
+ 1、课外计划iPad标准化问题优化
+ */
+
 /** 版本：1.0.0.16    2019-11-11 */
 /**
  1、课外计划音视频VIP权限控制调整
