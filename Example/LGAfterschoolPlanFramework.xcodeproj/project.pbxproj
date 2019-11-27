@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4921EF7B300AD82DEE913DA7 /* Pods_LGAfterschoolPlanFramework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C71D5F5944B86457CDD54 /* Pods_LGAfterschoolPlanFramework_Example.framework */; };
-		59E90E98BBDCDE493BFFFBAD /* Pods_LGAfterschoolPlanFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93B96FDD7974E2C83FB08A9 /* Pods_LGAfterschoolPlanFramework_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,7 +40,6 @@
 		1B04A1FD0FE00B34CD73AC43 /* LGAfterschoolPlanFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGAfterschoolPlanFramework.podspec; path = ../LGAfterschoolPlanFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2C34B1AD8126875A2024B3CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		312E722DDAE44287051D453D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3FD5341D2DE088832E88E905 /* Pods-LGAfterschoolPlanFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGAfterschoolPlanFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-LGAfterschoolPlanFramework_Tests/Pods-LGAfterschoolPlanFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		425C71D5F5944B86457CDD54 /* Pods_LGAfterschoolPlanFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGAfterschoolPlanFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LGAfterschoolPlanFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGAfterschoolPlanFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +61,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		811A1F1732707C7E67D130A3 /* Pods-LGAfterschoolPlanFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGAfterschoolPlanFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LGAfterschoolPlanFramework_Tests/Pods-LGAfterschoolPlanFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC4EB020F8101B59862E3964 /* Pods-LGAfterschoolPlanFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGAfterschoolPlanFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-LGAfterschoolPlanFramework_Example/Pods-LGAfterschoolPlanFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E93B96FDD7974E2C83FB08A9 /* Pods_LGAfterschoolPlanFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGAfterschoolPlanFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +84,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				59E90E98BBDCDE493BFFFBAD /* Pods_LGAfterschoolPlanFramework_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +119,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				425C71D5F5944B86457CDD54 /* Pods_LGAfterschoolPlanFramework_Example.framework */,
-				E93B96FDD7974E2C83FB08A9 /* Pods_LGAfterschoolPlanFramework_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +184,6 @@
 			children = (
 				CC4EB020F8101B59862E3964 /* Pods-LGAfterschoolPlanFramework_Example.debug.xcconfig */,
 				0A59D635A4A1CF5DCB84F7A3 /* Pods-LGAfterschoolPlanFramework_Example.release.xcconfig */,
-				811A1F1732707C7E67D130A3 /* Pods-LGAfterschoolPlanFramework_Tests.debug.xcconfig */,
-				3FD5341D2DE088832E88E905 /* Pods-LGAfterschoolPlanFramework_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -223,7 +215,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LGAfterschoolPlanFramework_Tests" */;
 			buildPhases = (
-				8AD8B638795B43CFFBC57EF6 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -304,38 +295,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LGAfterschoolPlanFramework_Example/Pods-LGAfterschoolPlanFramework_Example-resources.sh",
 				"${PODS_ROOT}/../../LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.bundle",
-				"${PODS_ROOT}/YJMediaPlayer/YJMediaPlayer/Classes/YJMediaPlayer.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LGAfterschoolPlanFramework.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YJMediaPlayer.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LGAfterschoolPlanFramework_Example/Pods-LGAfterschoolPlanFramework_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8AD8B638795B43CFFBC57EF6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LGAfterschoolPlanFramework_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A0C9292CAA0A316368563F61 /* [CP] Check Pods Manifest.lock */ = {
@@ -368,9 +335,9 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LGAfterschoolPlanFramework_Example/Pods-LGAfterschoolPlanFramework_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
 				"${BUILT_PRODUCTS_DIR}/LGAlertHUD/LGAlertHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/LGLog/LGLog.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
@@ -393,9 +360,9 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGAlertHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGLog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
@@ -586,7 +553,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 811A1F1732707C7E67D130A3 /* Pods-LGAfterschoolPlanFramework_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -611,7 +577,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FD5341D2DE088832E88E905 /* Pods-LGAfterschoolPlanFramework_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,13 +1,12 @@
+#索引库
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'LGAfterschoolPlanFramework_Example' do
-  pod 'LGAfterschoolPlanFramework', :path => '../'
+  pod 'LGAfterschoolPlan', :path => '../'
 
-  target 'LGAfterschoolPlanFramework_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end
