@@ -9,6 +9,13 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.3    2019-11-26 */
+/**
+ 1、课外计划iPad标准化问题优化
+ 2、课外计划添加听力训练资料选择上限字段
+ 3、课外计划针对已开始未结束的计划增加立即结束功能
+ */
+
 /** 版本：1.0.2    2019-11-23 */
 /**
  1、课外计划iPad标准化问题优化

@@ -13,6 +13,8 @@
 #define LGAPTrainingResGradeKey [NSString stringWithFormat:@"%@%@%@", LGAPManager.userID, LGAPManager.freeStudyBaseUrl, @"TrainResGradeKey"]
 #define LGAPTrainModekey [NSString stringWithFormat:@"%@%@%@", LGAPManager.userID, LGAPManager.freeStudyBaseUrl, @"TrainModeKey"]
 
+static NSInteger const LGAfterschoolPlanListenResourceDefaultMaxLimitCount = 20;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LGAfterschoolPlanManager : NSObject
@@ -44,6 +46,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *courseNO;     //课程ID
 @property (nonatomic, copy) NSString *courseName;   //课程名称
 @property (nonatomic, copy) NSString *token;        //用户登录令牌
+
+/** 课外计划-听力训练中，选择听力资料的最大限制，default is LGAfterschoolPlanListenResourceDefaultMaxLimitCount */
+@property (nonatomic, assign) NSInteger listenResourceMaxLimitCount;
 
 /** 付费VIP模式 (default is YES) */
 @property (nonatomic, assign) BOOL isVipMode;
