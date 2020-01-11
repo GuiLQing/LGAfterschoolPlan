@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0A59D635A4A1CF5DCB84F7A3 /* Pods-LGAfterschoolPlanFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGAfterschoolPlanFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-LGAfterschoolPlanFramework_Example/Pods-LGAfterschoolPlanFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1B04A1FD0FE00B34CD73AC43 /* LGAfterschoolPlanFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGAfterschoolPlanFramework.podspec; path = ../LGAfterschoolPlanFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B04A1FD0FE00B34CD73AC43 /* LGAfterschoolPlan.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGAfterschoolPlan.podspec; path = ../LGAfterschoolPlan.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2C34B1AD8126875A2024B3CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		312E722DDAE44287051D453D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		425C71D5F5944B86457CDD54 /* Pods_LGAfterschoolPlanFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGAfterschoolPlanFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,7 +172,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				1B04A1FD0FE00B34CD73AC43 /* LGAfterschoolPlanFramework.podspec */,
+				1B04A1FD0FE00B34CD73AC43 /* LGAfterschoolPlan.podspec */,
 				2C34B1AD8126875A2024B3CE /* README.md */,
 				312E722DDAE44287051D453D /* LICENSE */,
 			);
