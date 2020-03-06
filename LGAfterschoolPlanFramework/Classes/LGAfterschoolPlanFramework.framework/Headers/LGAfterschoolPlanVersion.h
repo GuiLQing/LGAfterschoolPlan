@@ -9,9 +9,9 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
-/** 版本：1.0.4    2020-01-09 */
+/** 版本：1.0.5    2020-03-06 */
 /**
- 1、课外计划更新cocoapod
+ 1、修复课外计划护眼模式下部分弹框突兀问题
  */
 
 /** 版本：1.0.3.2    2020-01-09 */
