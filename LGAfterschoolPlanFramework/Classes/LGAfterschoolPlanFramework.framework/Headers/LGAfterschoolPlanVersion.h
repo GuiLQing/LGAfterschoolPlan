@@ -9,6 +9,11 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.6   2019-03-16 */
+/**
+ 1、iOS13适配
+ */
+
 /** 版本：1.0.5    2020-03-06 */
 /**
  1、修复课外计划护眼模式下部分弹框突兀问题
