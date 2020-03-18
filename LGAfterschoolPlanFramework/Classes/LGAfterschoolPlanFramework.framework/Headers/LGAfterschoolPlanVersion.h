@@ -9,6 +9,11 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.7   2019-03-18 */
+/**
+ 1、iOS13适配 UISegmentedControl
+ */
+
 /** 版本：1.0.6   2019-03-16 */
 /**
  1、iOS13适配
