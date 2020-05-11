@@ -9,6 +9,11 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.8   2019-05-11 */
+/**
+ 1、添加听力计划学习开放判断配置
+ */
+
 /** 版本：1.0.7   2019-03-18 */
 /**
  1、iOS13适配 UISegmentedControl
