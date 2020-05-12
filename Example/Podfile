@@ -1,5 +1,5 @@
 #索引库
-source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
 
@@ -8,5 +8,6 @@ platform :ios, '9.0'
 target 'LGAfterschoolPlanFramework_Example' do
   pod 'LGAfterschoolPlan', :path => '../'
 
+pod 'AFNetworking', '3.2.1'
   
 end
