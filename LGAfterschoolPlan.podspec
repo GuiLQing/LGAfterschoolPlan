@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
     
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     
-    #s.homepage         = 'https://github.com/GuiLQing/LGAfterschoolPlanFramework'
-    #s.author           = { 'GuiLQing' => 'gui950823@126.com' }
-    #s.source           = { :git => 'https://github.com/GuiLQing/LGAfterschoolPlanFramework.git', :tag => s.version.to_s }
+    s.homepage         = 'https://github.com/GuiLQing/LGAfterschoolPlanFramework'
+    s.author           = { 'GuiLQing' => 'gui950823@126.com' }
+    s.source           = { :git => 'https://github.com/GuiLQing/LGAfterschoolPlanFramework.git', :tag => s.version.to_s }
     
-    s.homepage         = 'http://192.168.3.18:3000/pengshigui/LGAfterschoolPlanFramework'
-    s.author           = { 'pengshigui' => 'gui950823@126.com' }
-    s.source           = { :git => 'http://192.168.3.18:3000/pengshigui/LGAfterschoolPlanFramework.git', :tag => s.version.to_s }
+    #s.homepage         = 'http://192.168.3.18:3000/pengshigui/LGAfterschoolPlanFramework'
+    #s.author           = { 'pengshigui' => 'gui950823@126.com' }
+    #s.source           = { :git => 'http://192.168.3.18:3000/pengshigui/LGAfterschoolPlanFramework.git', :tag => s.version.to_s }
     
     s.ios.deployment_target = '9.0'
     
