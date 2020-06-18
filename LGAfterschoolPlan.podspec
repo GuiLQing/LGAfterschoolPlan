@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'LGAfterschoolPlan'
-    s.version          = '1.0.8'
+    s.version          = '1.0.9'
     s.summary          = 'A short description of LGAfterschoolPlanFramework.'
     
     s.description      = <<-DESC
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
     
     s.resources = 'LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.bundle'
     
-    s.dependency 'AFNetworking'
+    #s.dependency 'AFNetworking','3.2.1'
     s.dependency 'Masonry'
     s.dependency 'JSONModel'
     s.dependency 'SDWebImage'

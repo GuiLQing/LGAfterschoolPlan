@@ -9,6 +9,11 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.0.9   2019-06-18 */
+/**
+ 1、问题修改
+ */
+
 /** 版本：1.0.8   2019-05-11 */
 /**
  1、添加听力计划学习开放判断配置
