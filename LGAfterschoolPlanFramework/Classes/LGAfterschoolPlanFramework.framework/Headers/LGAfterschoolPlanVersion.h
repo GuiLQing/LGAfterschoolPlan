@@ -9,6 +9,11 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.1.0   2019-06-18 */
+/**
+ 1、课外计划统一加载图和导航栏背景图
+ */
+
 /** 版本：1.0.9   2019-06-18 */
 /**
  1、问题修改
