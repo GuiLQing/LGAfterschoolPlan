@@ -1,6 +1,6 @@
 {
   "name": "LGAfterschoolPlan",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "summary": "A short description of LGAfterschoolPlanFramework.",
   "description": "TODO: Add long description of the pod here.",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/GuiLQing/LGAfterschoolPlanFramework.git",
-    "tag": "1.1.0"
+    "tag": "1.1.1"
   },
   "platforms": {
     "ios": "9.0"
@@ -43,6 +43,9 @@
   "vendored_frameworks": "LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.framework",
   "resources": "LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.bundle",
   "dependencies": {
+    "AFNetworking": [
+      "3.2.1"
+    ],
     "Masonry": [
 
     ],
