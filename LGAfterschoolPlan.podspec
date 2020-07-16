@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
     
     s.resources = 'LGAfterschoolPlanFramework/Classes/LGAfterschoolPlanFramework.bundle'
     
-    #s.dependency 'AFNetworking','3.2.1'
+    s.dependency 'AFNetworking','3.2.1'
     s.dependency 'Masonry'
     s.dependency 'JSONModel'
     s.dependency 'SDWebImage'
