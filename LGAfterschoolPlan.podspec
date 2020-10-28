@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'LGAfterschoolPlan'
-    s.version          = '1.1.1'
+    s.version          = '1.1.4'
     s.summary          = 'A short description of LGAfterschoolPlanFramework.'
     
     s.description      = <<-DESC
