@@ -9,7 +9,12 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
-/** 版本：1.1.6   2019-11-2 */
+/** 版本：1.1.8   2019-11-19 */
+/**
+ 1、问题优化
+ */
+
+/** 版本：1.1.7   2019-11-2 */
 /**
  1、新增单词学习页码及动效
  */
