@@ -9,6 +9,11 @@
 #ifndef LGAfterschoolPlanVersion_h
 #define LGAfterschoolPlanVersion_h
 
+/** 版本：1.2.1   2019-12-07*/
+/**
+ 1、问题优化
+ */
+
 /** 版本：1.2.0   2019-11-24*/
 /**
  1、跳过类型选择界面
