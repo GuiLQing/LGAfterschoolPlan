@@ -69,6 +69,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) void (^afterschoolPlanWillDismissBlock)(void);
 
+/** 知识点视图 */
+@property (nonatomic,copy) void (^createKlgViewBlock) (NSString *klgCode, void (^returnKlgView)(UIView * _Nullable klgView, SEL _Nullable stopKlgViewVoicePlay));
+
 #pragma mark - 对接课外计划跳转
 
 /** 跳转课外计划首页 */

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'LGAfterschoolPlan'
-    s.version          = '1.1.4'
+    s.version          = '1.2.4'
     s.summary          = 'A short description of LGAfterschoolPlanFramework.'
     
     s.description      = <<-DESC
@@ -52,5 +52,6 @@ Pod::Spec.new do |s|
     s.dependency 'PSGChainedMode'
     s.dependency 'WZLBadge'
     s.dependency 'LGBundle'
+    s.dependency 'YJImageBrowser'
     
 end
